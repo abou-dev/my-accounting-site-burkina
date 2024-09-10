@@ -1,0 +1,62 @@
+# Activer le module de réécriture
+RewriteEngine On
+
+# Redirection des anciennes pages vers les nouvelles
+
+# Rediriger /formation vers /formation.html
+RewriteRule ^formation$ /formation.html [L,R=301]
+
+# Rediriger /contact vers /contact.html
+RewriteRule ^contact$ /contact.html [L,R=301]
+
+# Rediriger /join-us vers /join-us.html
+RewriteRule ^join-us$ /join-us.html [L,R=301]
+
+# Rediriger /mission-comptable vers /mission-comptable.html
+RewriteRule ^mission-comptable$ /mission-comptable.html [L,R=301]
+
+# Rediriger /mission-conseil vers /mission-conseil.html
+RewriteRule ^mission-conseil$ /mission-conseil.html [L,R=301]
+
+# Rediriger /missions-juridiques vers /missions-juridiques.html
+RewriteRule ^missions-juridiques$ /missions-juridiques.html [L,R=301]
+
+# Rediriger /nos-missions vers /nos-missions.html
+RewriteRule ^nos-missions$ /nos-missions.html [L,R=301]
+
+# Rediriger /who-are-we vers /who-are-we.html
+RewriteRule ^who-are-we$ /who-are-we.html [L,R=301]
+
+# Redirection de l'accueil
+RewriteRule ^$ /index.html [L,R=301]
+
+# Redirection de la page 404
+RewriteRule ^404$ /404.html [L,R=301]
+
+# Optionnel : Gérer les redirections des fichiers .txt si nécessaire
+# Rediriger /nos-missions.txt vers /nos-missions.html
+RewriteRule ^nos-missions.txt$ /nos-missions.html [L,R=301]
+
+# Rediriger /mission-comptable.txt vers /mission-comptable.html
+RewriteRule ^mission-comptable.txt$ /mission-comptable.html [L,R=301]
+
+# Rediriger /mission-conseil.txt vers /mission-conseil.html
+RewriteRule ^mission-conseil.txt$ /mission-conseil.html [L,R=301]
+
+# Rediriger /missions-juridiques.txt vers /missions-juridiques.html
+RewriteRule ^missions-juridiques.txt$ /missions-juridiques.html [L,R=301]
+
+# Rediriger /contact.txt vers /contact.html
+RewriteRule ^contact.txt$ /contact.html [L,R=301]
+
+# Rediriger /formation.txt vers /formation.html
+RewriteRule ^formation.txt$ /formation.html [L,R=301]
+
+# Rediriger /index.txt vers /index.html
+RewriteRule ^index.txt$ /index.html [L,R=301]
+
+# Rediriger /join-us.txt vers /join-us.html
+RewriteRule ^join-us.txt$ /join-us.html [L,R=301]
+
+# Rediriger /who-are-we.txt vers /who-are-we.html
+RewriteRule ^who-are-we.txt$ /who-are-we.html [L,R=301]
