@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef } from 'react';
+import lReact, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
@@ -34,7 +34,7 @@ export default function Formation() {
       <h1 className=""></h1>
       <div className="relative h-96 mb-12">
         <Image 
-          src="/images/banner2.webp" 
+          src="/images/MACint.jpg" 
           alt="Mission Banner" 
           fill 
           style={{ objectFit: 'cover' }} 
@@ -42,9 +42,9 @@ export default function Formation() {
         />
         <div 
           ref={bannerRef} 
-          className="absolute top-0 right-0 bg-blue-800 text-white p-8 rounded-lg shadow-lg transform translate-y-12 translate-x-12"
+          className="absolute top-auto left-4 bg-transparent text-blue-900 p-8 rounded-lg shadow-lg transform translate-y-12 translate-x-12"
         >
-          <h1 className="text-4xl font-extrabold text-center mb-12 text-white">CATALOGUE DE FORMATION</h1>
+          <h1 className="text-5xl font-bold">Formation</h1>
         </div>
       </div>
 

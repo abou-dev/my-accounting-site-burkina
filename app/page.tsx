@@ -56,8 +56,11 @@ export default function Home() {
         "Management",
         "Audit",
         "Consulting",
-        "Cabinet d'expert comptable",
+        "Cabinet d'audit",
+        "et d'expertise comptable",
+
       ];
+      
   
       const timeline = gsap.timeline({ repeat: -1, yoyo: true, repeatDelay: 1 });
   
@@ -100,9 +103,10 @@ const toggleChat = () => {
         <section className="relative h-[70vh] flex flex-col justify-center items-center text-white text-center overflow-hidden z-10">
           <h1 ref={textRef} className="text-4xl font-bold text-white font-serif z-10">
             MAC Burkina
+           
           </h1>
-          <p className="mt-4 text-red-900 font-sans z-10">
-            Votre partenaire en expertise comptable et conseil
+          <p className="mt-4 text-opacity-100 font-extralight z-10">
+          Nous sommes une équipe jeune et pluridisciplinaire d'une vingtaine de collaborateurs, dédiée à apporter notre expertise pour soutenir le développement et les organisations à travers nos missions.
           </p>
           <div
             ref={imageRef}
@@ -111,8 +115,9 @@ const toggleChat = () => {
               backgroundAttachment: "fixed",
               backgroundPosition: "center",
               backgroundSize: "cover",
-              backgroundImage: "url('/images/banner2.webp')",
+              backgroundImage: "url('/images/MAC SARL.jpg')", 
             }}
+        
           ></div>
         </section>
 
@@ -133,20 +138,17 @@ const toggleChat = () => {
         <section className="bg-white py-12 shadow-md mt-8 relative z-20">
           <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-2/3 p-6">
+
               <h2 className="text-2xl font-bold mb-4">MAC CONSULTING Burkina</h2>
-              <p className="text-gray-700 mb-4">
-              Monsieur Jules Remi Legma est un Expert-Comptable Diplômé et Commissaire aux Comptes, avec 14 ans d'expérience acquise au sein du cabinet Fiducia au Sénégal. Tout au long de sa carrière, il a dirigé de nombreuses missions d'expertise comptable, d'audit, et de conseil, apportant son expertise à divers clients.
-              </p>
-              <p className="text-gray-700">
-              Fort de cette riche expérience, Monsieur Ousmaila a décidé de créer son propre cabinet d'expertise comptable, MAC Consulting Burkina Faso, afin de continuer à offrir des services de haute qualité en comptabilité et audit.
-              </p>
-              <p className="text-gray-700 mt-4">
-              Monsieur Legma est titulaire du Diplôme d’Expertise Comptable et Financière (DECOFI) et du Diplôme d’Études Supérieures en Comptabilité et Gestion Financière (DESCOGEF) de l'Union Économique et Monétaire Ouest-Africaine (UEMOA) , du Master 2 en Audit et Contrôle de gestion  de L'Université Cheick Anta Diop de Dakar et du diplôme d'état dénommé DSC (Diplôme Supérieur de comptabilité).
-              </p>
+            
+              <p className="text-gray-700 leading-relaxed">
+            Le Cabinet Management Audit and Consulting en abrégé MAC Consulting est une initiative panafricaine réunissant en son sein les meilleures compétences dans les missions d'assurance, de conseils en gestion, stratégie de développement, finance d'entreprise... avec comme mécanisme d'intervention le développement de relais de proximité dans chaque pays de la zone OHADA. Véritable pôle d'excellence, MAC Consulting prône le partage d'expérience entre les experts chevronnes avec pour but ultime d'offir des services d'assurance et de conseils de haute qualite tenant compte des exigences et normes internationales d'éthique et de qualité de sorte à garantir, développer et renforcer un climat de confiance à court, moyen et long terme avec les entreprises et institutions locales et internationales.
+            </p>
+              
             </div>
             <div className="md:w-1/3 p-6">
               <Image
-                src="/images/expert.jpg"
+                src="/images/expertIMG.jpg"
                 alt="M. Jules Remi Legma"
                 width={300}
                 height={300}
@@ -165,7 +167,7 @@ const toggleChat = () => {
       <div className="w-1/2 relative">
         <div className="relative overflow-hidden w-full h-full">
           <Image
-            src="/images/service1.jpg" // Remplacez par le chemin de votre image
+            src="/images/MACph.jpg" // Remplacez par le chemin de votre image
             alt="Calculating"
             width={500}
             height={300}
@@ -191,7 +193,7 @@ const toggleChat = () => {
             <h2 className="text-2xl font-bold mb-4">Notre Localisation</h2>
             <p className="text-gray-700 mb-8">
            11 BP 1529 Ouagadougou CMS 11
-           Song Naaba Cité Asecna
+           Song Naaba Cité Ascena
             </p>
             <div className="relative w-full h-64">
               <iframe
@@ -217,7 +219,7 @@ const toggleChat = () => {
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
         <div ref={serviceRef3} className="bg-white p-6 rounded-lg shadow">
             <Image
-              src="/images/service3.jpg"
+              src="/images/expertise.jpg"
               width={500}
               height={300}
               alt="Service 3"
@@ -230,7 +232,7 @@ const toggleChat = () => {
           </div>
           <div ref={serviceRef1} className="bg-white p-6 rounded-lg shadow">
             <Image
-              src="/images/service1.jpg"
+              src="/images/audit1.jpg"
               width={500}
               height={300}
               alt="Service 1"
@@ -243,7 +245,7 @@ const toggleChat = () => {
           </div>
           <div ref={serviceRef2} className="bg-white p-6 rounded-lg shadow">
             <Image
-              src="/images/service2.jpg"
+              src="/images/conseil fiscal.jpg"
               width={500}
               height={300}
               alt="Service 2"

@@ -21,7 +21,7 @@ export default function NosMissions() {
     <div className="container mx-auto py-12 px-6 relative z-10">
       <div className="relative inset-0 h-[70vh] overflow-hidden z-0">
         <Image 
-          src="/images/banner3.webp" 
+          src="/images/Macint1.jpg" 
           alt="Mission Banner" 
           fill 
           style={{ objectFit: 'cover' }} 
@@ -29,9 +29,9 @@ export default function NosMissions() {
         />
         <div 
           ref={bannerRef} 
-          className="absolute top-0 right-0 bg-blue-800 text-white p-8 rounded-lg shadow-lg transform translate-y-12 translate-x-12 z-20"
+          className="absolute top-0 right-0 bg-transparent text-white p-8 rounded-lg shadow-lg transform translate-y-12 translate-x-12 z-20"
         >
-          <h1 className="text-4xl font-extrabold text-center mb-12 text-white">Nos Missions au Burkina Faso</h1>
+          <h1 className="text-5xl font-extrabold text-center mb-12 text-blue-900">Nos Missions au Burkina Faso</h1>
         </div>
       </div>
 

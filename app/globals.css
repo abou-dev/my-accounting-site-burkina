@@ -44,4 +44,11 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+.image {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+.image:hover {
+  opacity: 0.5;
+}
 

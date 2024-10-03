@@ -18,7 +18,7 @@ export default function RootLayout({ children }: LayoutProps) {
       </head>
       <body className="bg-gray-100 text-gray-800">
         {/* Header */}
-        <header className="bg-sky-800 shadow-md">
+        <header className="bg-blue-900 shadow-md">
           <div className="container mx-auto flex justify-between items-center py-4 px-6">
             <Link href="/" legacyBehavior>
               <a>
@@ -47,6 +47,9 @@ export default function RootLayout({ children }: LayoutProps) {
       <Link href="/who-are-we" legacyBehavior>
         <a className="text-white hover:text-blue-800 transition duration-300">Qui sommes nous?</a>
       </Link>
+      <li>
+      
+    </li>
     </li>
     <li>
       <Link href="/formation" legacyBehavior>
@@ -59,11 +62,14 @@ export default function RootLayout({ children }: LayoutProps) {
       <Link href="/join-us" legacyBehavior>
         <a className="text-white hover:text-blue-800 transition duration-300">Rejoignez-nous</a>
       </Link>
+      <li>
+      
+    </li>
     </li>
     
     <li>
       <Link href="/contact" legacyBehavior>
-        <a className="text-white hover:text-blue-800 transition duration-300">Contact us</a>
+        <a className="text-white hover:text-blue-800 transition duration-300">Contactez nous</a>
       </Link>
     </li>
   </ul>

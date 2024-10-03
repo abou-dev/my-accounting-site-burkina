@@ -26,6 +26,7 @@ export default function WhoWeAre() {
 
 
       const texts = [
+        "A propos de nous",
         "Chez MAC Consulting Burkina, nous accompagnons les entreprises dans plusieurs domaines clés pour assurer leur réussite et leur conformité.",
         "Expertise Comptable : Nous offrons des services de comptabilité adaptés, allant de la tenue des comptes à la préparation des états financiers.",
         "Audit et Contrôle : Nos audits garantissent la transparence et la fiabilité de vos informations financières, renforçant ainsi vos contrôles internes.",
@@ -61,7 +62,7 @@ export default function WhoWeAre() {
     <div className="container mx-auto py-12 px-6">
      <div className="relative h-96 mb-12">
         <Image 
-          src="/images/banner2.webp" 
+          src="/images/MACint.jpg" 
           alt="Mission Banner" 
           fill 
           style={{ objectFit: 'cover' }} 
@@ -69,9 +70,9 @@ export default function WhoWeAre() {
         />
         <div 
           ref={bannerRef} 
-          className="absolute top-0 right-0 bg-blue-800 text-white p-8 rounded-lg shadow-lg transform translate-y-12 translate-x-12"
+          className="absolute top-5 right-5 bg-transparent text-blue-800 p-8 rounded-lg shadow-lg transform translate-y-12 translate-x-12"
         >
-          <h1 className="text-4xl font-bold">Qui Sommes Nous?</h1>
+          <h1 className="text-4xl font-bold">A propos de nous?</h1>
         </div>
       </div>
 
@@ -79,12 +80,12 @@ export default function WhoWeAre() {
       <section ref={historyRef} className="mb-12 bg-gray-100 p-8 rounded-lg shadow-md">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/3">
-            <Image src="/images/expert.jpg" alt="Our History" width={300} height={300} className="rounded-full shadow-lg" />
+            <Image src="/images/expert jr.jpg" alt="Our History" width={300} height={300} className="rounded-full shadow-lg" />
           </div>
           <div className="md:w-2/3 md:ml-8 mt-4 md:mt-0">
-            <h2 className="text-3xl font-semibold text-blue-800 mb-4">NÔTRE HISTOIRE</h2>
+            <h2 className="text-3xl font-semibold text-blue-800 mb-4">NOTRE HISTOIRE</h2>
             <p className="text-gray-700 leading-relaxed">
-            Le Cabinet Management Audit and Consulting en abrégé MAC Consulting est une initiative panafricaine réunissant en son sein les meilleures compétences dans les missions d'assurance, de conseils en gestion, stratégie de développement, finance d'entreprise... avec comme mécanisme d'intervention le développement de relais de proximité dans chaque pays de la zone OHADA. Véritable pôle d'excellence, MAC Consulting prône le partage d'expérience entre les experts chevronnes avec pour but ultime d'offir des services d'assurance et de conseils de haute qualite tenant compte des exigences et normes internationales d'éthique et de qualité de sorte à garantir, développer et renforcer un climat de confiance à court, moyen et long terme avec les entreprises et institutions locales et internationales.
+            Le Cabinet Management Audit and Consulting en abrégé MAC Consulting est une initiative panafricaine réunissant en son sein les meilleures compétences dans les missions d'assurance, de conseils en gestion, stratégie de développement, finance d'entreprise... avec comme mécanisme d'intervention le développement de relais de proximité dans chaque pays de la zone OHADA. Véritable pôle d'excellence, MAC Consulting prône le partage d'expérience entre les experts chevronnés avec pour but ultime d'offir des services d'assurance et de conseils de haute qualité tenant compte des exigences et normes internationales d'éthique et de qualité de sorte à garantir, développer et renforcer un climat de confiance à court, moyen et long terme avec les entreprises et institutions locales et internationales.
             </p>
           </div>
         </div>
@@ -155,7 +156,7 @@ Grâce à une équipe hautement qualifiée et dévouée, nous sommes déterminé
       {/* Section Domaine d'Intervention */}
       <section ref={domainRef} className="relative h-[500px] mb-12">
       <Image
-        src="/images/banner4.webp" // Remplacez par l'URL de votre image de fond
+        src="/images/MACint1.jpg" // Remplacez par l'URL de votre image de fond
         alt="Domaine d'intervention"
         layout="fill"
         objectFit="cover"

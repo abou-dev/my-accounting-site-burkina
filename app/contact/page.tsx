@@ -20,7 +20,7 @@ export default function Contact() {
     <div className="container mx-auto py-12 px-6">
       <div className="relative h-96 mb-12">
         <Image 
-          src="/images/hero-image.jpg" 
+          src="/images/MACint1.jpg" 
           alt="Contact Banner" 
           fill 
           style={{ objectFit: 'cover' }} 
@@ -28,7 +28,7 @@ export default function Contact() {
         />
         <div 
           ref={bannerRef} 
-          className="absolute top-0 right-0 bg-blue-800 text-white p-8 rounded-lg shadow-lg transform translate-y-12 translate-x-12"
+          className="absolute top-0 right-0 bg-transparent text-blue-900 p-8 rounded-lg shadow-lg transform translate-y-12 translate-x-12"
         >
           <h1 className="text-4xl font-bold">Contact</h1>
         </div>
